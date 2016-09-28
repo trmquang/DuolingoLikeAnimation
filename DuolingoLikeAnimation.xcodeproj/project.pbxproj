@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C0F01391D8805DB00779C41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0F01381D8805DB00779C41 /* AppDelegate.swift */; };
+		1C0F013B1D8805DB00779C41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0F013A1D8805DB00779C41 /* ViewController.swift */; };
+		1C0F013E1D8805DB00779C41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C0F013C1D8805DB00779C41 /* Main.storyboard */; };
+		1C0F01411D8805DB00779C41 /* DuolingoLikeAnimation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1C0F013F1D8805DB00779C41 /* DuolingoLikeAnimation.xcdatamodeld */; };
+		1C0F01431D8805DB00779C41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C0F01421D8805DB00779C41 /* Assets.xcassets */; };
+		1C0F01461D8805DB00779C41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C0F01441D8805DB00779C41 /* LaunchScreen.storyboard */; };
+		1C0F014E1D880CE800779C41 /* WordListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0F014D1D880CE800779C41 /* WordListCollectionViewCell.swift */; };
+		1C0F01501D890ACF00779C41 /* DataItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0F014F1D890ACF00779C41 /* DataItem.swift */; };
+		1CAFF5F71D938292000B8786 /* DuolingoCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAFF5F61D938292000B8786 /* DuolingoCollectionView.swift */; };
+		1CBBDB991D93852F006B8463 /* DragDropManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBBDB981D93852F006B8463 /* DragDropManager.swift */; };
+		1CF30DE71D99766D00799E09 /* UICollectionViewLeftAlignedLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF30DE61D99766D00799E09 /* UICollectionViewLeftAlignedLayout.swift */; };
+		A4296570A10D7FBFC98ABAF2 /* Pods_DuolingoLikeAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 972015A39AA4F9CC2FC4C23B /* Pods_DuolingoLikeAnimation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C0F01351D8805DB00779C41 /* DuolingoLikeAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DuolingoLikeAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C0F01381D8805DB00779C41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1C0F013A1D8805DB00779C41 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1C0F013D1D8805DB00779C41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1C0F01401D8805DB00779C41 /* DuolingoLikeAnimation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DuolingoLikeAnimation.xcdatamodel; sourceTree = "<group>"; };
+		1C0F01421D8805DB00779C41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C0F01451D8805DB00779C41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1C0F01471D8805DB00779C41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C0F014D1D880CE800779C41 /* WordListCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordListCollectionViewCell.swift; sourceTree = "<group>"; };
+		1C0F014F1D890ACF00779C41 /* DataItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataItem.swift; sourceTree = "<group>"; };
+		1CAFF5F61D938292000B8786 /* DuolingoCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DuolingoCollectionView.swift; sourceTree = "<group>"; };
+		1CBBDB981D93852F006B8463 /* DragDropManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragDropManager.swift; sourceTree = "<group>"; };
+		1CF30DE61D99766D00799E09 /* UICollectionViewLeftAlignedLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionViewLeftAlignedLayout.swift; sourceTree = "<group>"; };
+		56EAB9DF9A461D8496632BAE /* Pods-DuolingoLikeAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DuolingoLikeAnimation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DuolingoLikeAnimation/Pods-DuolingoLikeAnimation.debug.xcconfig"; sourceTree = "<group>"; };
+		972015A39AA4F9CC2FC4C23B /* Pods_DuolingoLikeAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DuolingoLikeAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D64C6C2AFB48D87EE99AB644 /* Pods-DuolingoLikeAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DuolingoLikeAnimation.release.xcconfig"; path = "Pods/Target Support Files/Pods-DuolingoLikeAnimation/Pods-DuolingoLikeAnimation.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C0F01321D8805DB00779C41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4296570A10D7FBFC98ABAF2 /* Pods_DuolingoLikeAnimation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		063094FE2E1F9B4E1FF56FBE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				56EAB9DF9A461D8496632BAE /* Pods-DuolingoLikeAnimation.debug.xcconfig */,
+				D64C6C2AFB48D87EE99AB644 /* Pods-DuolingoLikeAnimation.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1C0F012C1D8805DB00779C41 = {
+			isa = PBXGroup;
+			children = (
+				1C0F01371D8805DB00779C41 /* DuolingoLikeAnimation */,
+				1C0F01361D8805DB00779C41 /* Products */,
+				063094FE2E1F9B4E1FF56FBE /* Pods */,
+				6199B12EDBDE78A77BAF8E6C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1C0F01361D8805DB00779C41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C0F01351D8805DB00779C41 /* DuolingoLikeAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C0F01371D8805DB00779C41 /* DuolingoLikeAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				1C0F01381D8805DB00779C41 /* AppDelegate.swift */,
+				1C0F013A1D8805DB00779C41 /* ViewController.swift */,
+				1C0F013C1D8805DB00779C41 /* Main.storyboard */,
+				1C0F01421D8805DB00779C41 /* Assets.xcassets */,
+				1C0F01441D8805DB00779C41 /* LaunchScreen.storyboard */,
+				1C0F01471D8805DB00779C41 /* Info.plist */,
+				1C0F013F1D8805DB00779C41 /* DuolingoLikeAnimation.xcdatamodeld */,
+				1C0F014D1D880CE800779C41 /* WordListCollectionViewCell.swift */,
+				1C0F014F1D890ACF00779C41 /* DataItem.swift */,
+				1CAFF5F61D938292000B8786 /* DuolingoCollectionView.swift */,
+				1CBBDB981D93852F006B8463 /* DragDropManager.swift */,
+				1CF30DE61D99766D00799E09 /* UICollectionViewLeftAlignedLayout.swift */,
+			);
+			path = DuolingoLikeAnimation;
+			sourceTree = "<group>";
+		};
+		6199B12EDBDE78A77BAF8E6C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				972015A39AA4F9CC2FC4C23B /* Pods_DuolingoLikeAnimation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C0F01341D8805DB00779C41 /* DuolingoLikeAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C0F014A1D8805DB00779C41 /* Build configuration list for PBXNativeTarget "DuolingoLikeAnimation" */;
+			buildPhases = (
+				1CD28BBD6860CAC6CB5F3471 /* [CP] Check Pods Manifest.lock */,
+				1C0F01311D8805DB00779C41 /* Sources */,
+				1C0F01321D8805DB00779C41 /* Frameworks */,
+				1C0F01331D8805DB00779C41 /* Resources */,
+				AB71755B2FDCD032F743D699 /* [CP] Embed Pods Frameworks */,
+				6A6A147E83D6122FC236AD80 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DuolingoLikeAnimation;
+			productName = DuolingoLikeAnimation;
+			productReference = 1C0F01351D8805DB00779C41 /* DuolingoLikeAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C0F012D1D8805DB00779C41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = INSPI;
+				TargetAttributes = {
+					1C0F01341D8805DB00779C41 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = M2T6Z3VFYT;
+						LastSwiftMigration = 0800;
+					};
+				};
+			};
+			buildConfigurationList = 1C0F01301D8805DB00779C41 /* Build configuration list for PBXProject "DuolingoLikeAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1C0F012C1D8805DB00779C41;
+			productRefGroup = 1C0F01361D8805DB00779C41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C0F01341D8805DB00779C41 /* DuolingoLikeAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C0F01331D8805DB00779C41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C0F01461D8805DB00779C41 /* LaunchScreen.storyboard in Resources */,
+				1C0F01431D8805DB00779C41 /* Assets.xcassets in Resources */,
+				1C0F013E1D8805DB00779C41 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1CD28BBD6860CAC6CB5F3471 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6A6A147E83D6122FC236AD80 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DuolingoLikeAnimation/Pods-DuolingoLikeAnimation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB71755B2FDCD032F743D699 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DuolingoLikeAnimation/Pods-DuolingoLikeAnimation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C0F01311D8805DB00779C41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C0F01501D890ACF00779C41 /* DataItem.swift in Sources */,
+				1C0F014E1D880CE800779C41 /* WordListCollectionViewCell.swift in Sources */,
+				1C0F013B1D8805DB00779C41 /* ViewController.swift in Sources */,
+				1C0F01411D8805DB00779C41 /* DuolingoLikeAnimation.xcdatamodeld in Sources */,
+				1CF30DE71D99766D00799E09 /* UICollectionViewLeftAlignedLayout.swift in Sources */,
+				1CBBDB991D93852F006B8463 /* DragDropManager.swift in Sources */,
+				1C0F01391D8805DB00779C41 /* AppDelegate.swift in Sources */,
+				1CAFF5F71D938292000B8786 /* DuolingoCollectionView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1C0F013C1D8805DB00779C41 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C0F013D1D8805DB00779C41 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1C0F01441D8805DB00779C41 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C0F01451D8805DB00779C41 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1C0F01481D8805DB00779C41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1C0F01491D8805DB00779C41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C0F014B1D8805DB00779C41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56EAB9DF9A461D8496632BAE /* Pods-DuolingoLikeAnimation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M2T6Z3VFYT;
+				INFOPLIST_FILE = DuolingoLikeAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Quang-Minh-Trinh.DuolingoLikeAnimation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Debug;
+		};
+		1C0F014C1D8805DB00779C41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D64C6C2AFB48D87EE99AB644 /* Pods-DuolingoLikeAnimation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M2T6Z3VFYT;
+				INFOPLIST_FILE = DuolingoLikeAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Quang-Minh-Trinh.DuolingoLikeAnimation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C0F01301D8805DB00779C41 /* Build configuration list for PBXProject "DuolingoLikeAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C0F01481D8805DB00779C41 /* Debug */,
+				1C0F01491D8805DB00779C41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C0F014A1D8805DB00779C41 /* Build configuration list for PBXNativeTarget "DuolingoLikeAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C0F014B1D8805DB00779C41 /* Debug */,
+				1C0F014C1D8805DB00779C41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1C0F013F1D8805DB00779C41 /* DuolingoLikeAnimation.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1C0F01401D8805DB00779C41 /* DuolingoLikeAnimation.xcdatamodel */,
+			);
+			currentVersion = 1C0F01401D8805DB00779C41 /* DuolingoLikeAnimation.xcdatamodel */;
+			path = DuolingoLikeAnimation.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1C0F012D1D8805DB00779C41 /* Project object */;
+}

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "DuolingoCollectionView.canDropAtRect(CGRect) -&gt; Bool:DuolingoCollectionView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.indexPathForCellOverlappingRect(rect) != nil">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "DuolingoCollectionView.indexPathForCellOverlappingRect(CGRect) -&gt; NSIndexPath?:DuolingoCollectionView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "visibleCells().count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.collectionView(UICollectionView, deleteDataItemAtIndexPath : NSIndexPath) -&gt; ():ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "data[collectionView.tag]">
+            </PersistentString>
+            <PersistentString
+               value = "indexPath.item">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "DragAndDropManager.itemPan(UIPanGestureRecognizer) -&gt; ():DragDropManager.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "mainOverView == self.sourceView">
+            </PersistentString>
+            <PersistentString
+               value = "bundl.sourceDraggableView != bundl.overDroppableView">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "DuolingoCollectionView.didMoveOutItem(AnyObject) -&gt; ():DuolingoCollectionView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "existingIndexPath">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.numberOfSectionsInCollectionView(UICollectionView) -&gt; Int:ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "collectionView.tag">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "DragAndDropManager.itemTap(UITapGestureRecognizer) -&gt; ():DragDropManager.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "bundl.sourceDraggableView != bundl.overDroppableView">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DuolingoLikeAnimation" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" tag="1" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="aI0-y1-CS2" customClass="DuolingoCollectionView" customModule="DuolingoLikeAnimation" customModuleProvider="target">
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="240" id="237-bJ-ubI"/>
+                                </constraints>
+                                <collectionViewLayout key="collectionViewLayout" id="YfU-Gv-ukx" customClass="UICollectionViewLeftAlignedLayout" customModule="DuolingoLikeAnimation" customModuleProvider="target"/>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="h3E-nA-2QB" customClass="WordListCollectionViewCell" customModule="DuolingoLikeAnimation" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="100" height="29"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="100" height="29"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Mu-pM-XyH">
+                                                    <gestureRecognizers/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </view>
+                                        <constraints>
+                                            <constraint firstItem="7Mu-pM-XyH" firstAttribute="top" secondItem="h3E-nA-2QB" secondAttribute="top" constant="4" id="8tP-un-Rgy"/>
+                                            <constraint firstAttribute="trailing" secondItem="7Mu-pM-XyH" secondAttribute="trailing" constant="4" id="nWg-gs-RDx"/>
+                                            <constraint firstAttribute="bottom" secondItem="7Mu-pM-XyH" secondAttribute="bottom" constant="4" id="nuG-Jl-6Xx"/>
+                                            <constraint firstItem="7Mu-pM-XyH" firstAttribute="leading" secondItem="h3E-nA-2QB" secondAttribute="leading" constant="4" id="yJd-uw-kXu"/>
+                                        </constraints>
+                                        <size key="customSize" width="100" height="29"/>
+                                        <connections>
+                                            <outlet property="wordLbl" destination="7Mu-pM-XyH" id="4cb-pR-NbA"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="zf9-T2-YBz" customClass="DuolingoCollectionView" customModule="DuolingoLikeAnimation" customModuleProvider="target">
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="240" id="Cud-Op-Wj8"/>
+                                </constraints>
+                                <collectionViewLayout key="collectionViewLayout" id="8Uh-kD-B70" customClass="UICollectionViewLeftAlignedLayout" customModule="DuolingoLikeAnimation" customModuleProvider="target"/>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="KAy-BW-zRs" customClass="WordListCollectionViewCell" customModule="DuolingoLikeAnimation" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="100" height="29"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="100" height="29"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="187-C7-sg4">
+                                                    <gestureRecognizers/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </view>
+                                        <constraints>
+                                            <constraint firstItem="187-C7-sg4" firstAttribute="leading" secondItem="KAy-BW-zRs" secondAttribute="leading" constant="4" id="3jL-FZ-hbf"/>
+                                            <constraint firstAttribute="bottom" secondItem="187-C7-sg4" secondAttribute="bottom" constant="4" id="HAq-d2-tzK"/>
+                                            <constraint firstItem="187-C7-sg4" firstAttribute="top" secondItem="KAy-BW-zRs" secondAttribute="top" constant="4" id="Vli-xR-HBg"/>
+                                            <constraint firstAttribute="trailing" secondItem="187-C7-sg4" secondAttribute="trailing" constant="4" id="zap-HB-cE6"/>
+                                        </constraints>
+                                        <size key="customSize" width="100" height="29"/>
+                                        <connections>
+                                            <outlet property="wordLbl" destination="187-C7-sg4" id="jeF-rf-z3E"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="aI0-y1-CS2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="12" id="DWP-09-fJl"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="aI0-y1-CS2" secondAttribute="bottom" constant="12" id="STB-YH-zb4"/>
+                            <constraint firstItem="zf9-T2-YBz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="12" id="bDJ-G7-R9v"/>
+                            <constraint firstItem="zf9-T2-YBz" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="12" id="dtv-B0-a5T"/>
+                            <constraint firstAttribute="trailing" secondItem="zf9-T2-YBz" secondAttribute="trailing" constant="12" id="j4r-bf-Mma"/>
+                            <constraint firstAttribute="trailing" secondItem="aI0-y1-CS2" secondAttribute="trailing" constant="12" id="jlr-Et-1UN"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="arrangedWordListCollectionView" destination="zf9-T2-YBz" id="rW6-RZ-WSF"/>
+                        <outlet property="wordListCollectionView" destination="aI0-y1-CS2" id="56h-nK-9K5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
